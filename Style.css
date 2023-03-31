@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html body {
+    height: 100% ;
+    font-family: 'Inter';
+}
+
+ul{
+    list-style: none;
+}
+
+
+.page-1 {
+    min-height: 100vh;
+    background: #2A1246;
+    padding: 1rem 8rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .titre .logo {
+    height: 10;
+    width: 10;
+}
+
+.menu .titre {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.menu .titre h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.menu .lien ul {
+    display: flex;
+    gap: 2.3rem;
+}
+
+.menu .lien ul a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #878593;
+    font-size: 0.9rem;
+}
+
+.menu .lien ul a:hover {
+    color: white;
+}
+
+.presentation {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.presentation .text h2 {
+    font-weight: 700;
+    font-size: 4.2rem;
+}
+
+.presentation .text p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #878593;
+    margin-top: 2%;
+    line-height: 2rem;
+}
+
+.presentation .bouton {
+    height: 50px;
+    width: 237px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    transition: 0.5s;
+    background-size: 200%;
+    font-weight: 600;
+    font-size: 1rem;
+    border-style: none;
+    z-index: 2;
+         
+}
+
+.presentation .bouton:hover{
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    position: relative;
+}
+
+.hero .deployment {
+    position: absolute;
+    top: 25%;
+    left: 63%;
+}
+
+.hero .git {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
